@@ -51,7 +51,6 @@ public class FirstJdbcMain {
 		 * conn.close(); } catch (ClassNotFoundException e) { e.printStackTrace(); }
 		 * catch (SQLException e) { e.printStackTrace(); }
 		 */
-		
 		//saveEmployee("Anil");
 		//showEmployee(5);
 		//showEmployee("Sunny' OR 1=1 --' ");
