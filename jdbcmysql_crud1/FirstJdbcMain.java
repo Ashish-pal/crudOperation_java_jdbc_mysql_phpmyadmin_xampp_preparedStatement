@@ -23,10 +23,8 @@ public class FirstJdbcMain {
 		 * "VALUES('Chandrakesh','.Net Developer','Trainee')");
 		 * 
 		 * if (inserted) { System.out.println("Data Insertion failed"); } else {
-		 * System.out.println("Data Insertion successfully"); }
-		 * 
-		 * 
-		 * 
+		 * System.out.println("Data Insertion successfully"); 
+		
 		 * boolean update = stmt.execute("UPDATE employee \n" + "SET \n" +
 		 * "name = 'Shiva', \n" + "department = 'Staff Office' \n" + "WHERE id = 8");
 		 * 
