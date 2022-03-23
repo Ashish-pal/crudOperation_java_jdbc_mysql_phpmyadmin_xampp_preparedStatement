@@ -127,7 +127,6 @@ public class FirstJdbcMain {
 			e.printStackTrace();
 		}
 	}
-
 	static void showEmployee(String name) {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
