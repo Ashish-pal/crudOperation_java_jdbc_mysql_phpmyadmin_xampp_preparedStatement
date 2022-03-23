@@ -39,9 +39,7 @@ public class FirstJdbcMain {
 		 * (stmt.getUpdateCount() > 0) {
 		 * System.out.println("Data Deletion successfully"); } else {
 		 * System.out.println("Data Deletion failed"); }
-		 * 
-		 * 
-		 * 
+		 
 		 * ResultSet rs = stmt.executeQuery("SELECT * FROM employee"); while (rs.next())
 		 * { System.out.println(rs.getString("id") + "," + rs.getString("name") + "," +
 		 * rs.getString("department") + "," + rs.getString("role")); }
